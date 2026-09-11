@@ -4,37 +4,42 @@ Reading this repository requires nothing. **Opening an Issue requires a GitHub a
 
 That excludes anyone with a view on the questions here but no reason to join a developer platform. This questionnaire is the way around it:
 
-> **Answer here: FORM_URL_PLACEHOLDER**
+> **Answer here: https://forms.gle/kW2MQmGJvMUCKxMM7**
 
-No account. No email address. Anonymous is fine. Four required fields; the rest are optional.
+No account. No email address. Anonymous is fine. Four required questions; the rest are optional.
 
 It asks the open Problem in [#9](https://github.com/43jjoam/intermind/issues/9) — *should AI companies stop developing AI now?* — and ends with room for anything else you want to raise.
 
-## Where the answers go
+## Reading what other people said
 
-Answers about the AI-development Problem are published **verbatim as comments on [#9](https://github.com/43jjoam/intermind/issues/9)**, one comment per submission, each carrying its Tally Submission ID and whatever attribution you gave.
+Two places, neither needing an account:
+
+- **[The response summary](https://docs.google.com/forms/d/e/1FAIpQLSeYHxsbiXiCZVnQxs9TpMW2Vklgxvo0hFzyoDV9_KDJNScSUQ/viewanalytics)** — every text answer, as submitted. You are also offered this link immediately after you submit.
+- **[Issue #9](https://github.com/43jjoam/intermind/issues/9)** — answers published verbatim as comments, one per submission, with whatever attribution you gave.
+
+The questionnaire deliberately shows you other answers only *after* you submit. An answer written before reading the others is better evidence than one written after, which is why question 8 asks whether you had already read them.
 
 Anything raised in the final open question becomes its own Issue, labelled `relayed`.
-
-Reading either requires no account. That is where you go to see what other people said.
 
 Verbatim means verbatim: wording is not tidied, shortened, or corrected on the way in. So **do not submit anything you would not want public**, and do not submit anyone else's personal information.
 
 ## How you can check the record
 
-A form is a private channel. Only the custodian sees what arrives, so selective publication would ordinarily be undetectable. Tally has no public results page, so that particular check is not available here. Three weaker ones are:
+A form is normally a private channel: only the custodian sees what arrives, so selective publication would be undetectable. Three things make this one checkable.
 
-1. **Your Submission ID.** The page shown after you submit displays an ID, and the published comment carries the same ID. You can verify that your own answer was published, and published faithfully. If it never appears, you have a specific reference to point at.
-2. **The counter below**, recording how many submissions arrived, were published, and were withheld.
-3. **Periodic raw exports** committed to this repository, where Git history makes any later editing visible.
+1. **The response summary is public.** Anyone can compare it against what was published as comments on #9. This is the load-bearing check, and it does not depend on trusting the custodian.
+2. **The counter below** records how many submissions arrived, were published, and were withheld.
+3. **Periodic raw exports** committed to this repository, where Git history makes later editing visible.
 
-None of these lets a third party independently detect a dropped submission the way a public results page would. That limitation is real and is recorded here rather than glossed over.
+One limit worth stating: the summary is a live view, not an archive. A response deleted from the form disappears from it. That is why the exports exist.
 
 ## When something is not published
 
 Publication is the default. Withholding is permitted only at the narrow legal, privacy, or safety boundary described under `PRINCIPLE-COLLISION` in [PROTOCOL.md](PROTOCOL.md) — for example a submission exposing a third party's personal information.
 
 A withheld submission is not a silent gap. The counter still increments and the ledger records a tombstone stating that something arrived and why it was not published. The decision is logged and challengeable, like any other administrative action.
+
+Note that the summary publishes text the moment it is submitted, with no review step. Withholding therefore means deleting the response, which also removes it from the summary. That is a real deletion, so it is recorded as one.
 
 ## What the questionnaire asks
 
@@ -53,7 +58,7 @@ Recorded here so a later reader knows what prompt produced an answer.
 
 Protocol formatting is not required anywhere. Plain language is welcome. Two sentences is a real contribution.
 
-Question 8 exists because an answer written before reading the others is better evidence than one written after. Question 9 exists because the first visitor's actual goal is still an open Challenge (`CH-S1-02`), and nobody has collected evidence about it.
+Question 9 exists because the first visitor's actual goal is still an open Challenge (`CH-S1-02`), and nobody has collected evidence about it.
 
 ## Ledger
 
@@ -63,6 +68,6 @@ submissions_published: 0
 submissions_withheld: 0
 ```
 
-| # | submission id | received | published as | note |
-|---|---|---|---|---|
-| — | — | — | — | no submissions yet |
+| # | received | published as | note |
+|---|---|---|---|
+| — | — | — | no submissions yet |

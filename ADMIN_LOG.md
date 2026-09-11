@@ -94,7 +94,7 @@ action: CREATE
 object: INTAKE.md, no-account submission form, `relayed` label
 reason: the GitHub contribution path is behind a login wall, which excludes exactly the affected non-participants OPEN_QUESTIONS.md names as unsolved
 policy: submissions are published verbatim as Issues; withholding is permitted only at the narrow PRINCIPLE-COLLISION boundary and leaves a tombstone in the ledger
-note: a form is a private channel, so the custodian could publish selectively and nobody would know. Tally has no public results page, so the intended independent check is unavailable. Substitutes: per-submission IDs let a submitter verify their own answer was published, a counter records received/published/withheld, and raw exports are committed periodically. A third party still cannot detect a dropped submission. Recorded as a known weakness. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
+note: a form is a private channel, so the custodian could publish selectively and nobody would know. Google Forms was chosen over Tally because its public response summary makes that detectable without trusting the custodian. Secondary checks: a counter recording received/published/withheld, and periodic raw exports. Known limit: the summary is a live view, so a deleted response vanishes from it. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
 ```
 
 ### A-0010
