@@ -4,7 +4,7 @@ Reading this repository requires nothing. **Opening an Issue requires a GitHub a
 
 That excludes anyone with a view on the questions here but no reason to join a developer platform. This questionnaire is the way around it:
 
-> **Answer here: https://forms.gle/kW2MQmGJvMUCKxMM7**
+> **Answer here: https://forms.gle/H5JkpLgAFpZQcwgr6**
 
 No account. No email address. Anonymous is fine. Four required questions; the rest are optional.
 
@@ -14,7 +14,7 @@ It asks the open Problem in [#9](https://github.com/43jjoam/intermind/issues/9) 
 
 Two places, neither needing an account:
 
-- **[The response summary](https://docs.google.com/forms/d/e/1FAIpQLSeYHxsbiXiCZVnQxs9TpMW2Vklgxvo0hFzyoDV9_KDJNScSUQ/viewanalytics)** — every text answer, as submitted. You are also offered this link immediately after you submit.
+- **[The response summary](https://docs.google.com/forms/d/e/1FAIpQLSedcCVZevX0R7YvP28DOyWcotY1TVq12wdpBonO_2xVxWJoqA/viewanalytics)** — every text answer, as submitted. No account, and you do not have to answer first to read it. You are also offered this link immediately after you submit.
 - **[Issue #9](https://github.com/43jjoam/intermind/issues/9)** — answers published verbatim as comments, one per submission, with whatever attribution you gave.
 
 The questionnaire deliberately shows you other answers only *after* you submit. An answer written before reading the others is better evidence than one written after, which is why question 8 asks whether you had already read them.
