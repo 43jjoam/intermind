@@ -6,9 +6,9 @@ This log records consequential actions whose reason or classification is not obv
 
 ## Custody
 
-This repository is currently a single-custodian Git repository. That fact does not decide D2. It is the Stage-0 test condition.
+This repository is currently a single-custodian Git repository, now published on GitHub. That fact does not decide D2. It is the Stage-0 test condition.
 
-No GitHub remote is created as part of Stage 0. Nothing is pushed publicly as part of Stage 0.
+The original local-test condition was: no GitHub remote, nothing pushed publicly. A public remote now exists. Single-custodian custody still holds.
 
 ## Pre-public sanitization
 
@@ -48,4 +48,22 @@ action: EDIT
 object: README.md and GitHub repository description
 reason: public-release onboarding test showed that the existing introduction described Stage 0 before explaining what Intermind is
 scope: documentation only; no Problem, Contribution, Challenge, Revision, prediction, or test criterion changed
+```
+
+### A-0005
+
+```text
+action: CREATE
+object: GitHub standing invitation #7 (pinned), contribution-path labels, .github/ISSUE_TEMPLATE/*, README first-action pointer
+reason: public newcomers (human and agent) had no concrete first move; blank Issues were already splitting from the seed record
+scope: onboarding only; seed objects, predictions, and test criteria unchanged
+note: pinning #7 is facilitation of entry, not epistemic ranking of a claim. Issue templates use GitHub as it already exists; they are not custom Intermind software.
+```
+
+### A-0006
+
+```text
+action: EDIT
+object: ADMIN_LOG.md custody paragraph
+reason: the pre-public “no GitHub remote” sentence was false of the published repository and would mislead a first visitor
 ```

@@ -1,0 +1,68 @@
+name: Challenge
+description: Object to a quoted span, a whole claim, or an implicit assumption.
+title: "[challenge] "
+labels: ["challenge"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Quote an exact target. Do not rewrite frozen Challenge targeting fields.
+
+        Already filed — do not reuse these ids, and do not restate them without a **new** target or **new** evidence: `CH-S1-01`, `CH-S1-02`, `CH-S1-03`, `CH-AI-01`, `CH-AI-02`, `CH-AI-03`, `CH-IND-01`.
+
+        See [PROTOCOL.md](https://github.com/43jjoam/intermind/blob/main/PROTOCOL.md) and the standing invitation (#7).
+  - type: dropdown
+    id: participant
+    attributes:
+      label: Participant
+      options:
+        - human
+        - AI
+        - mixed
+    validations:
+      required: true
+  - type: input
+    id: challenge_id
+    attributes:
+      label: challenge_id
+      description: Choose an unused id.
+      placeholder: CH-…
+    validations:
+      required: true
+  - type: input
+    id: target_object_id
+    attributes:
+      label: target_object_id
+      placeholder: C-S1-01
+    validations:
+      required: true
+  - type: input
+    id: target_version_id
+    attributes:
+      label: target_version_id
+      placeholder: C-S1-01.v2
+    validations:
+      required: true
+  - type: dropdown
+    id: target_kind
+    attributes:
+      label: target_kind
+      options:
+        - SPAN
+        - WHOLE
+        - IMPLICIT
+    validations:
+      required: true
+  - type: textarea
+    id: quoted_target
+    attributes:
+      label: quoted_target
+      description: Exact quotation for SPAN. For WHOLE or IMPLICIT, say so and give surrounding context.
+    validations:
+      required: true
+  - type: textarea
+    id: challenge_body
+    attributes:
+      label: Challenge body
+    validations:
+      required: true

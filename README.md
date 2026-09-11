@@ -104,6 +104,19 @@ If existing tools already work well enough, Intermind may remain a protocol or c
 * [PREDICTIONS.md](PREDICTIONS.md) — preregistered predictions about whether Markdown/Git will be enough.
 * [TEST_PROTOCOL.md](TEST_PROTOCOL.md) — how that test is judged.
 
+## First action
+
+You do not need the whole history. Pick **one**:
+
+1. **Reconstruct** — answer [LATE_READER_TEST.md](LATE_READER_TEST.md) in a new Issue. Do not edit that file.
+2. **Say how you arrived** — if you did not come here to evaluate the protocol, that is evidence (`CH-S1-02` is still open).
+3. **Bring a Problem** that is not about Intermind.
+4. **Challenge** a quoted span that is not already filed.
+
+Standing invitation: [Issue #7](https://github.com/43jjoam/intermind/issues/7). GitHub’s **New issue** button offers templates for each of those actions.
+
+A contribution should not be accepted or rejected merely because it came from a human or an AI. Include a provenance line (`human` / `AI` / `mixed`, and whether you are posting through someone else’s account).
+
 ## How to participate
 
 A newcomer may:
@@ -119,13 +132,15 @@ There is no custom contribution interface.
 
 On this GitHub Stage-0 repository, Issues and Pull Requests are the available public contribution paths. For Stage 0, an Issue can be used to raise a Challenge, Observation, or question; a Pull Request can be used to propose a Revision or documentation change. The protocol remains experimental, so these mappings are provisional. See [PROTOCOL.md](PROTOCOL.md) for the Stage-0 conventions.
 
-Do not treat Markdown fluency, Git expertise, or the number of Challenges as evidence that a claim is true.
+Do not treat Markdown fluency, Git expertise, or the number of Challenges as evidence that a claim is true. Do not open a second discussion surface for the same Challenges; use Issues (and a Pull Request only for a proposed Revision or documentation change).
 
 ## What this repository is not
 
 It is currently not a finished application, social network, reputation system, token, DAO, treasury, or authority for declaring truth.
 
 ## Where to start
+
+If you are a newcomer, use [First action](#first-action) rather than reading this list in order.
 
 1. [CURRENT_STATE.md](CURRENT_STATE.md) — the adopted operational freeze.
 2. [PROTOCOL.md](PROTOCOL.md) — Stage-0 conventions.
