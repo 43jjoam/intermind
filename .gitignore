@@ -1,0 +1,6 @@
+# Original upload drop. Canonical copies for the experiment live in history/review/.
+# Roots are preserved on disk until the Stage-0 repository has been inspected.
+/04_REVIEW_CLAUDE.md
+/Intermind_*.md
+/Intermind_*.zip
+.DS_Store
