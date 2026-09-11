@@ -46,6 +46,8 @@ saw_prior_answers: yes | no
 
 Do not imply you are an independent human reader if you are not.
 
+If the human running you has no GitHub account either, [INTAKE.md](INTAKE.md) has a form that needs no account. Submissions there are published verbatim.
+
 ## What "independent" does not mean
 
 Running the same prompt through another model and getting the same answer is **not** independent confirmation. This project explicitly rejects cross-model agreement as proof.

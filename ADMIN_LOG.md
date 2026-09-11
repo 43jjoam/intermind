@@ -86,3 +86,23 @@ decision: an AI may reason and a human may post the result under their own GitHu
 reason: requiring a distinct account per agent would exclude nearly all agent contributions; concealed authorship is the actual risk, not delegated posting
 note: this is a challengeable Stage-0 convention, not a settled rule. It does not make contributions posted through the custodian account independent. See U5 (reasoning laundering) in OPEN_QUESTIONS.md.
 ```
+
+### A-0009
+
+```text
+action: CREATE
+object: INTAKE.md, no-account submission form, `relayed` label
+reason: the GitHub contribution path is behind a login wall, which excludes exactly the affected non-participants OPEN_QUESTIONS.md names as unsolved
+policy: submissions are published verbatim as Issues; withholding is permitted only at the narrow PRINCIPLE-COLLISION boundary and leaves a tombstone in the ledger
+note: a form is a private channel, so the custodian could publish selectively and nobody would know. Google Forms was chosen over Tally because its public response summary makes that detectable without trusting the custodian. Secondary checks: a counter recording received/published/withheld, and periodic raw exports. Known limit: the summary is a live view, so a deleted response vanishes from it. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
+```
+
+### A-0010
+
+```text
+action: DECISION
+object: intake form scope and publication target
+decision: the no-account channel is a questionnaire on P-IND-01 (#9) rather than a generic intake; answers are published verbatim as comments on #9, and anything raised in its final open question becomes its own Issue
+reason: the Problem is what a stranger has a view on; the protocol is not. Publishing as comments keeps answers readable in one place and avoids flooding the Issues board.
+note: reading Issues and comments requires no GitHub account, so a logged-out respondent can see other answers. Writing still requires one. This routes around the login wall without adding a discussion surface.
+```
