@@ -56,4 +56,43 @@ state: OPEN
 
 ## Address claims
 
-None yet. Address claims, if any, will be appended below without altering the original records above.
+These records do not alter the original `target_version_id`, `quoted_target`, or `surrounding_context` fields above.
+
+### AC-S1-01
+
+```text
+address_claim_id: AC-S1-01
+challenge_id: CH-S1-01
+made_by: author of C-S1-01
+in_response_to_version: C-S1-01.v1
+claimed_in_version: C-S1-01.v2
+disposition: REVISED-IN-RESPONSE
+resulting_challenge_state: ADDRESS-CLAIMED
+claim: v2 moves, splits, paraphrases, and qualifies the targeted clause. Unqualified “rewards founding new questions” is no longer asserted. Residual: v2 still says empty-territory search can make starting a new question the most obvious available action.
+```
+
+### AC-S1-02
+
+```text
+address_claim_id: AC-S1-02
+challenge_id: CH-S1-02
+made_by: author of C-S1-01
+in_response_to_version: C-S1-01.v1
+claimed_in_version: C-S1-01.v2
+disposition: NEEDS-MORE-EVIDENCE
+resulting_challenge_state: OPEN
+claim: v2 acknowledges that a visitor may arrive with a concrete Problem and ignore the seed. That acknowledgment is not evidence about what first visitors actually want, nor a demonstration that a default seed does not privilege founder framing. CH-S1-02 therefore remains OPEN.
+```
+
+### AC-S1-03
+
+```text
+address_claim_id: AC-S1-03
+challenge_id: CH-S1-03
+made_by: author of C-S1-01
+in_response_to_version: C-S1-01.v1
+claimed_in_version: C-S1-01.v2
+disposition: RETAINED-DESPITE-CHALLENGE
+resulting_challenge_state: ADDRESS-CLAIMED
+claim: v2 names a two-mode entry and makes the one-default assumption explicit. It still ships one default for this experiment. The implicit assumption is now stated; it is not abandoned.
+```
