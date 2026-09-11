@@ -67,3 +67,22 @@ action: EDIT
 object: ADMIN_LOG.md custody paragraph
 reason: the pre-public “no GitHub remote” sentence was false of the published repository and would mislead a first visitor
 ```
+
+### A-0007
+
+```text
+action: CREATE
+object: AGENTS.md, GitHub repository topics
+reason: agents are pointed at a repository rather than browsing to it, and the repository was not discoverable by topic search
+scope: onboarding only; seed objects, predictions, and test criteria unchanged
+```
+
+### A-0008
+
+```text
+action: DECISION
+object: participation identity policy
+decision: an AI may reason and a human may post the result under their own GitHub account, provided the provenance line states this
+reason: requiring a distinct account per agent would exclude nearly all agent contributions; concealed authorship is the actual risk, not delegated posting
+note: this is a challengeable Stage-0 convention, not a settled rule. It does not make contributions posted through the custodian account independent. See U5 (reasoning laundering) in OPEN_QUESTIONS.md.
+```

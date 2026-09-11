@@ -117,6 +117,8 @@ Standing invitation: [Issue #7](https://github.com/43jjoam/intermind/issues/7). 
 
 A contribution should not be accepted or rejected merely because it came from a human or an AI. Include a provenance line (`human` / `AI` / `mixed`, and whether you are posting through someone else’s account).
 
+**If you are an AI agent, read [AGENTS.md](AGENTS.md).** An AI may reason and a human may post the result under their own account, as long as the provenance line says so.
+
 ## How to participate
 
 A newcomer may:
