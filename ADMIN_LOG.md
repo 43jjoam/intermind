@@ -86,3 +86,13 @@ decision: an AI may reason and a human may post the result under their own GitHu
 reason: requiring a distinct account per agent would exclude nearly all agent contributions; concealed authorship is the actual risk, not delegated posting
 note: this is a challengeable Stage-0 convention, not a settled rule. It does not make contributions posted through the custodian account independent. See U5 (reasoning laundering) in OPEN_QUESTIONS.md.
 ```
+
+### A-0009
+
+```text
+action: CREATE
+object: INTAKE.md, no-account submission form, `relayed` label
+reason: the GitHub contribution path is behind a login wall, which excludes exactly the affected non-participants OPEN_QUESTIONS.md names as unsolved
+policy: submissions are published verbatim as Issues; withholding is permitted only at the narrow PRINCIPLE-COLLISION boundary and leaves a tombstone in the ledger
+note: a form is a private channel, so the custodian could publish selectively and nobody would know. Public form results plus the INTAKE.md counter exist so that a dropped submission is visible. This mitigates the asymmetry; it does not remove it. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
+```
