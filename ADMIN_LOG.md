@@ -40,3 +40,12 @@ action: CREATE
 object: CURRENT_STATE.md, STATE_RECONSTRUCTION.md, PROTOCOL.md, OPEN_QUESTIONS.md, README.md
 reason: separate current operational state from historical reasoning
 ```
+
+### A-0004
+
+```text
+action: EDIT
+object: README.md and GitHub repository description
+reason: public-release onboarding test showed that the existing introduction described Stage 0 before explaining what Intermind is
+scope: documentation only; no Problem, Contribution, Challenge, Revision, prediction, or test criterion changed
+```
