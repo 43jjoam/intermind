@@ -1,47 +1,59 @@
 # Contributing without a GitHub account
 
-Reading this repository requires nothing. **Opening an Issue requires a GitHub account**, and the page that lists the Issue templates redirects a logged-out visitor to a login screen.
+Reading this repository requires nothing. **Opening an Issue requires a GitHub account**, and the page listing the Issue templates redirects a logged-out visitor to a login screen.
 
-That excludes anyone who has a view on the questions here but no reason to join a developer platform. This form is the way around it:
+That excludes anyone with a view on the questions here but no reason to join a developer platform. This questionnaire is the way around it:
 
-> **Submit here: FORM_URL_PLACEHOLDER**
+> **Answer here: FORM_URL_PLACEHOLDER**
 
-No account. No email address required. Anonymous submission is fine.
+No account. No email address. Anonymous is fine. Four required fields; the rest are optional.
 
-## What happens to your submission
+It asks the open Problem in [#9](https://github.com/43jjoam/intermind/issues/9) — *should AI companies stop developing AI now?* — and ends with room for anything else you want to raise.
 
-Every submission is **published verbatim as a GitHub Issue**, labelled `relayed`, with your attribution as you gave it — or as anonymous if you left that blank.
+## Where the answers go
 
-Verbatim means verbatim. Your wording is not tidied, shortened, or corrected on the way in.
+Answers about the AI-development Problem are published **verbatim as comments on [#9](https://github.com/43jjoam/intermind/issues/9)**, one comment per submission, each carrying its Tally Submission ID and whatever attribution you gave.
 
-Because of that: **do not send anything you would not want public**, and do not send anyone else's private information.
+Anything raised in the final open question becomes its own Issue, labelled `relayed`.
 
-## Why there is a ledger
+Reading either requires no account. That is where you go to see what other people said.
 
-A form is a private channel. Only the custodian sees what arrives, so nobody can check that a submission was published faithfully, or that an unflattering one was not quietly dropped.
+Verbatim means verbatim: wording is not tidied, shortened, or corrected on the way in. So **do not submit anything you would not want public**, and do not submit anyone else's personal information.
 
-Two things make that checkable. The form's **results are public**, so the raw submissions are visible independently of what appears as an Issue. And the **counter below** records how many arrived, so a gap is something a reader can notice rather than something only the custodian knows.
+## How you can check the record
 
-If those two ever disagree, treat the discrepancy as the finding.
+A form is a private channel. Only the custodian sees what arrives, so selective publication would ordinarily be undetectable. Tally has no public results page, so that particular check is not available here. Three weaker ones are:
+
+1. **Your Submission ID.** The page shown after you submit displays an ID, and the published comment carries the same ID. You can verify that your own answer was published, and published faithfully. If it never appears, you have a specific reference to point at.
+2. **The counter below**, recording how many submissions arrived, were published, and were withheld.
+3. **Periodic raw exports** committed to this repository, where Git history makes any later editing visible.
+
+None of these lets a third party independently detect a dropped submission the way a public results page would. That limitation is real and is recorded here rather than glossed over.
 
 ## When something is not published
 
-Publication is the default and withholding is the exception, permitted only at the narrow legal, privacy, or safety boundary described under `PRINCIPLE-COLLISION` in [PROTOCOL.md](PROTOCOL.md) — for example a submission containing a third party's personal information.
+Publication is the default. Withholding is permitted only at the narrow legal, privacy, or safety boundary described under `PRINCIPLE-COLLISION` in [PROTOCOL.md](PROTOCOL.md) — for example a submission exposing a third party's personal information.
 
-A withheld submission is **not** a silent gap. The counter still increments and the ledger records a tombstone stating that something arrived and why it was not published. The decision is logged and challengeable, like any other administrative action.
+A withheld submission is not a silent gap. The counter still increments and the ledger records a tombstone stating that something arrived and why it was not published. The decision is logged and challengeable, like any other administrative action.
 
-## What the form asks
+## What the questionnaire asks
 
-Recorded here so a later reader knows what prompt produced a submission.
+Recorded here so a later reader knows what prompt produced an answer.
 
-1. What kind of contribution is this? (arrival note / a Problem / a challenge to this project / a challenge to the AI-development Problem in #9 / something else)
-2. Your contribution. *(required)*
-3. Are you a human, an AI, or both working together?
-4. How should this be attributed? (a name or handle, or blank to stay anonymous)
-5. Did you read the existing Issues before writing this?
-6. Acknowledgement that this will be published verbatim and publicly. *(required)*
+1. Where do you currently stand on whether AI companies should stop? *(required)*
+2. Why, in your own words? *(required)*
+3. Stop what exactly — or, if you said continue, what should not be built?
+4. What would change your mind? Name something observable.
+5. Who should decide?
+6. Are you a human, an AI, or both working together? *(required)*
+7. How should this be attributed? Blank means anonymous.
+8. Had you read the existing answers before writing this?
+9. Anything else — a different Problem, a challenge to how this experiment is run, or how you ended up here and what you were looking for.
+10. Acknowledgement that the answer will be published verbatim and publicly. *(required)*
 
-Protocol formatting is not required. Plain language is welcome. A two-sentence arrival note is a real contribution.
+Protocol formatting is not required anywhere. Plain language is welcome. Two sentences is a real contribution.
+
+Question 8 exists because an answer written before reading the others is better evidence than one written after. Question 9 exists because the first visitor's actual goal is still an open Challenge (`CH-S1-02`), and nobody has collected evidence about it.
 
 ## Ledger
 
@@ -51,6 +63,6 @@ submissions_published: 0
 submissions_withheld: 0
 ```
 
-| # | received | published as | note |
-|---|---|---|---|
-| — | — | — | no submissions yet |
+| # | submission id | received | published as | note |
+|---|---|---|---|---|
+| — | — | — | — | no submissions yet |

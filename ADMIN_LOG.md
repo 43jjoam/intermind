@@ -94,5 +94,15 @@ action: CREATE
 object: INTAKE.md, no-account submission form, `relayed` label
 reason: the GitHub contribution path is behind a login wall, which excludes exactly the affected non-participants OPEN_QUESTIONS.md names as unsolved
 policy: submissions are published verbatim as Issues; withholding is permitted only at the narrow PRINCIPLE-COLLISION boundary and leaves a tombstone in the ledger
-note: a form is a private channel, so the custodian could publish selectively and nobody would know. Public form results plus the INTAKE.md counter exist so that a dropped submission is visible. This mitigates the asymmetry; it does not remove it. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
+note: a form is a private channel, so the custodian could publish selectively and nobody would know. Tally has no public results page, so the intended independent check is unavailable. Substitutes: per-submission IDs let a submitter verify their own answer was published, a counter records received/published/withheld, and raw exports are committed periodically. A third party still cannot detect a dropped submission. Recorded as a known weakness. Related to U5 and to CH-AI-03 (#3) on procedural asymmetry.
+```
+
+### A-0010
+
+```text
+action: DECISION
+object: intake form scope and publication target
+decision: the no-account channel is a questionnaire on P-IND-01 (#9) rather than a generic intake; answers are published verbatim as comments on #9, and anything raised in its final open question becomes its own Issue
+reason: the Problem is what a stranger has a view on; the protocol is not. Publishing as comments keeps answers readable in one place and avoids flooding the Issues board.
+note: reading Issues and comments requires no GitHub account, so a logged-out respondent can see other answers. Writing still requires one. This routes around the login wall without adding a discussion surface.
 ```

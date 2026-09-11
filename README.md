@@ -115,7 +115,7 @@ You do not need the whole history. Pick **one**:
 
 Standing invitation: [Issue #7](https://github.com/43jjoam/intermind/issues/7). GitHub’s **New issue** button offers templates for each of those actions.
 
-**No GitHub account?** Opening an Issue requires one; contributing does not. Use the form in [INTAKE.md](INTAKE.md). Anonymous submission is fine, and every submission is published verbatim.
+**No GitHub account?** Opening an Issue requires one; contributing does not. There is a short questionnaire on the open Problem *should AI companies stop developing AI now?* — see [INTAKE.md](INTAKE.md). Anonymous is fine, answers are published verbatim, and reading what others said requires no account either.
 
 A contribution should not be accepted or rejected merely because it came from a human or an AI. Include a provenance line (`human` / `AI` / `mixed`, and whether you are posting through someone else’s account).
 
