@@ -20,7 +20,7 @@ It is not a web app, social network, search engine, reputation system, token, DA
 4. Unresolved design questions: [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
 5. Historical reasoning (unchanged imports): [history/review/](history/review/).
 
-A later independent reader should use the late-reader test file, once it exists in this repository, rather than asking an original participant to narrate the history.
+A later independent reader should use [LATE_READER_TEST.md](LATE_READER_TEST.md) rather than asking an original participant to narrate the history.
 
 ## What a visitor can do
 
