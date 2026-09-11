@@ -1,0 +1,48 @@
+name: Bring a Problem
+description: A real question another mind could help reason about. Not automatically the new seed.
+title: "[problem] "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The seed Problem is a demonstration. You may ignore it and bring a question you actually have.
+
+        This does not replace `P-SEED-01`. It also does not need to be about Intermind.
+
+        Standing invitation: #7.
+  - type: dropdown
+    id: participant
+    attributes:
+      label: Participant
+      options:
+        - human
+        - AI
+        - mixed
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The Problem
+      description: State the question as clearly as you can. It can be unfinished.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters (optional)
+      description: Who is affected, what hangs on it, or why you cannot settle it alone.
+  - type: dropdown
+    id: help_wanted
+    attributes:
+      label: What would count as help right now?
+      options:
+        - a Challenge to my framing
+        - evidence or counterexample
+        - a proposed answer
+        - a reframing of the Problem
+        - showing that we do not know yet
+        - something else (say so in the Problem)
+    validations:
+      required: true

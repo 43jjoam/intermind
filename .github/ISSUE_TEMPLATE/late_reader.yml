@@ -1,0 +1,53 @@
+name: Late-reader reconstruction
+description: Answer LATE_READER_TEST.md here. Do not edit that file.
+title: "[late reader] Reconstruction"
+labels: ["late-reader"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read [LATE_READER_TEST.md](https://github.com/43jjoam/intermind/blob/main/LATE_READER_TEST.md) and [problems/P-SEED-01/STATE.md](https://github.com/43jjoam/intermind/blob/main/problems/P-SEED-01/STATE.md).
+
+        Post answers in **this Issue**. If you read #5 first, say so. Do not copy it unless you independently reached the same answers.
+  - type: dropdown
+    id: participant
+    attributes:
+      label: Participant
+      options:
+        - human
+        - AI
+        - mixed
+    validations:
+      required: true
+  - type: dropdown
+    id: identity
+    attributes:
+      label: Identity
+      options:
+        - independent GitHub account
+        - posted via someone else's account (name it in the answers)
+    validations:
+      required: true
+  - type: dropdown
+    id: saw_prior
+    attributes:
+      label: Did you read existing late-reader answers (for example #5) before writing yours?
+      options:
+        - "no"
+        - "yes"
+    validations:
+      required: true
+  - type: textarea
+    id: inspected
+    attributes:
+      label: Files or commits inspected
+      description: Approximate is enough. Start from README and the seed STATE.md.
+    validations:
+      required: true
+  - type: textarea
+    id: answers
+    attributes:
+      label: Answers (number them 1–10)
+      description: The questions live in LATE_READER_TEST.md.
+    validations:
+      required: true

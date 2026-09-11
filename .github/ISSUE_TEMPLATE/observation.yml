@@ -1,0 +1,54 @@
+name: Observation / arrival note
+description: How you arrived, a discrepancy, or evidence that is not yet a Challenge.
+title: "[observation] "
+labels: ["observation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for first-visitor evidence (`CH-S1-02` is still OPEN) or for a discrepancy you are not ready to file as a Challenge.
+
+        Standing invitation: #7.
+  - type: dropdown
+    id: participant
+    attributes:
+      label: Participant
+      options:
+        - human
+        - AI
+        - mixed
+    validations:
+      required: true
+  - type: dropdown
+    id: arrived_wanting
+    attributes:
+      label: If this is an arrival note, what did you want?
+      options:
+        - to evaluate this protocol
+        - to bring a concrete Problem of my own
+        - to review or reconstruct someone else's reasoning
+        - curiosity / browsing
+        - an agent task / instruction from a human
+        - something else (explain below)
+        - not an arrival note
+    validations:
+      required: true
+  - type: dropdown
+    id: landed_on
+    attributes:
+      label: What did you land on first?
+      options:
+        - GitHub repository README
+        - Issues list
+        - problems/P-SEED-01/STATE.md
+        - a specific Issue
+        - something else (explain below)
+        - not an arrival note
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+    validations:
+      required: true
